@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="../static/style.css"/>
+        <script src="script.js"></script>
+        <title>Webpage</title>
+    </head>
+    <body>
+        <h1>MLB Stats</h1>
+        <table id="top-batters">
+            <thead>
+                <tr>
+                    <th style="width: 20px;">Rk</th>
+                    <th style="width: 180px;">Player</th>
+                    <th style="width: 30px;">Age</th>
+                    <th style="width: 40px;">Team</th>
+                    <th style="width: 30px;">LG</th>
+                    <th style="width: 40px;">WAR</th>
+                    <th style="width: 40px;">G</th>
+                    <th style="width: 40px;">PA</th>
+                    <th style="width: 40px;">AB</th>
+                    <th style="width: 40px;">R</th>
+                    <th style="width: 40px;">H</th>
+                    <th style="width: 40px;">2B</th>
+                    <th style="width: 40px;">3B</th>
+                    <th style="width: 40px;">HR</th>
+                    <th style="width: 40px;">RBI</th>
+                    <th style="width: 40px;">SB</th>
+                    <th style="width: 40px;">CS</th>
+                    <th style="width: 40px;">BB</th>
+                    <th style="width: 40px;">SO</th>
+                    <th style="width: 50px;">BA</th>
+                    <th style="width: 50px;">OBP</th>
+                    <th style="width: 50px;">SLG</th>
+                    <th style="width: 50px;">OPS</th>
+                    <th style="width: 50px;">OPS+</th>
+                    <th style="width: 50px;">rOBA</th>
+                    <th style="width: 50px;">Rbat+</th>
+                    <th style="width: 40px;">TB</th>
+                    <th style="width: 40px;">GIDP</th>
+                    <th style="width: 40px;">HBP</th>
+                    <th style="width: 40px;">SH</th>
+                    <th style="width: 40px;">SF</th>
+                    <th style="width: 40px;">IBB</th>
+                    <th style="width: 60px;">Pos</th>
+                    <th style="width: 80px;">Awards</th>
+                </tr>
+            </thead>
+            <tr>
+                <td id="rank">1</td>
+                <td id="player">Rafael Devers*</td>
+                <td id="age">28</td>
+                <td id="team">2TM</td>
+                <td id="lg">2LG</td>
+                <td id="war">2.2</td>
+                <td id="g">103</td>
+                <td id="pa">465</td>
+                <td id="ab">382</td>
+                <td id="r">59</td>
+                <td id="h">99</td>
+                <td id="doubles">25</td>
+                <td id="triples">0</td>
+                <td id="hr">17</td>
+                <td id="rbi">69</td>
+                <td id="sb">1</td>
+                <td id="cs">1</td>
+                <td id="bb">74</td>
+                <td id="so">116</td>
+                <td id="ba">.259</td>
+                <td id="obp">.383</td>
+                <td id="slg">.458</td>
+                <td id="ops">.841</td>
+                <td id="opsplus">136</td>
+                <td id="roba">.365</td>
+                <td id="rbatplus">137</td>
+                <td id="tb">175</td>
+                <td id="gidp">10</td>
+                <td id="hbp">5</td>
+                <td id="sh">0</td>
+                <td id="sf">4</td>
+                <td id="ibb">8</td>
+                <td id="pos">*D/3</td>
+                <td id="awards"></td>
+            </tr>
+            <tr>
+                <td id="rank">2</td>
+                <td id="player">Shohei Ohtani*</td>
+                <td id="age">30</td>
+                <td id="team">LAD</td>
+                <td id="lg">NL</td>
+                <td id="war">4.2</td>
+                <td id="g">100</td>
+                <td id="pa">460</td>
+                <td id="ab">391</td>
+                <td id="r">95</td>
+                <td id="h">107</td>
+                <td id="doubles">12</td>
+                <td id="triples">7</td>
+                <td id="hr">36</td>
+                <td id="rbi">69</td>
+                <td id="sb">13</td>
+                <td id="cs">4</td>
+                <td id="bb">63</td>
+                <td id="so">117</td>
+                <td id="ba">.274</td>
+                <td id="obp">.377</td>
+                <td id="slg">.616</td>
+                <td id="ops">.993</td>
+                <td id="opsplus">175</td>
+                <td id="roba">.415</td>
+                <td id="rbatplus">170</td>
+                <td id="tb">241</td>
+                <td id="gidp">5</td>
+                <td id="hbp">3</td>
+                <td id="sh">0</td>
+                <td id="sf">2</td>
+                <td id="ibb">11</td>
+                <td id="pos">*D/1</td>
+                <td id="awards">AS</td>
+            </tr>
+            <tr>
+                <td id="rank">3</td>
+                <td id="player">Jarren Duran*</td>
+                <td id="age">28</td>
+                <td id="team">BOS</td>
+                <td id="lg">AL</td>
+                <td id="war">2.4</td>
+                <td id="g">101</td>
+                <td id="pa">453</td>
+                <td id="ab">409</td>
+                <td id="r">54</td>
+                <td id="h">105</td>
+                <td id="doubles">25</td>
+                <td id="triples">10</td>
+                <td id="hr">9</td>
+                <td id="rbi">51</td>
+                <td id="sb">16</td>
+                <td id="cs">5</td>
+                <td id="bb">34</td>
+                <td id="so">108</td>
+                <td id="ba">.257</td>
+                <td id="obp">.323</td>
+                <td id="slg">.433</td>
+                <td id="ops">.756</td>
+                <td id="opsplus">108</td>
+                <td id="roba">.342</td>
+                <td id="rbatplus">115</td>
+                <td id="tb">177</td>
+                <td id="gidp">3</td>
+                <td id="hbp">7</td>
+                <td id="sh">1</td>
+                <td id="sf">2</td>
+                <td id="ibb">0</td>
+                <td id="pos">*78/H9D</td>
+                <td id="awards"></td>
+            </tr>
+            <tr>
+                <td id="rank">4</td>
+                <td id="player">Francisco Lindor#</td>
+                <td id="age">31</td>
+                <td id="team">NYM</td>
+                <td id="lg">NL</td>
+                <td id="war">2.6</td>
+                <td id="g">100</td>
+                <td id="pa">453</td>
+                <td id="ab">404</td>
+                <td id="r">64</td>
+                <td id="h">99</td>
+                <td id="doubles">18</td>
+                <td id="triples">0</td>
+                <td id="hr">19</td>
+                <td id="rbi">55</td>
+                <td id="sb">16</td>
+                <td id="cs">2</td>
+                <td id="bb">33</td>
+                <td id="so">82</td>
+                <td id="ba">.245</td>
+                <td id="obp">.313</td>
+                <td id="slg">.431</td>
+                <td id="ops">.744</td>
+                <td id="opsplus">113</td>
+                <td id="roba">.331</td>
+                <td id="rbatplus">112</td>
+                <td id="tb">174</td>
+                <td id="gidp">5</td>
+                <td id="hbp">10</td>
+                <td id="sh">0</td>
+                <td id="sf">6</td>
+                <td id="ibb">2</td>
+                <td id="pos">*6/DH</td>
+                <td id="awards">AS</td>
+            </tr>
+            <tr>
+                <td id="rank">5</td>
+                <td id="player">Julio Rodríguez</td>
+                <td id="age">24</td>
+                <td id="team">SEA</td>
+                <td id="lg">AL</td>
+                <td id="war">3.9</td>
+                <td id="g">100</td>
+                <td id="pa">452</td>
+                <td id="ab">412</td>
+                <td id="r">65</td>
+                <td id="h">103</td>
+                <td id="doubles">17</td>
+                <td id="triples">3</td>
+                <td id="hr">14</td>
+                <td id="rbi">51</td>
+                <td id="sb">19</td>
+                <td id="cs">4</td>
+                <td id="bb">30</td>
+                <td id="so">102</td>
+                <td id="ba">.250</td>
+                <td id="obp">.312</td>
+                <td id="slg">.408</td>
+                <td id="ops">.720</td>
+                <td id="opsplus">110</td>
+                <td id="roba">.328</td>
+                <td id="rbatplus">116</td>
+                <td id="tb">168</td>
+                <td id="gidp">9</td>
+                <td id="hbp">8</td>
+                <td id="sh">0</td>
+                <td id="sf">2</td>
+                <td id="ibb">1</td>
+                <td id="pos">*8/DH</td>
+                <td id="awards">AS</td>
+            </tr>
+            <tr>
+                <td id="rank">6</td>
+                <td id="player">Aaron Judge</td>
+                <td id="age">33</td>
+                <td id="team">NYY</td>
+                <td id="lg">AL</td>
+                <td id="war">7.0</td>
+                <td id="g">101</td>
+                <td id="pa">451</td>
+                <td id="ab">370</td>
+                <td id="r">89</td>
+                <td id="h">128</td>
+                <td id="doubles">24</td>
+                <td id="triples">2</td>
+                <td id="hr">36</td>
+                <td id="rbi">82</td>
+                <td id="sb">6</td>
+                <td id="cs">3</td>
+                <td id="bb">73</td>
+                <td id="so">118</td>
+                <td id="ba">.346</td>
+                <td id="obp">.455</td>
+                <td id="slg">.714</td>
+                <td id="ops">1.168</td>
+                <td id="opsplus">220</td>
+                <td id="roba">.471</td>
+                <td id="rbatplus">220</td>
+                <td id="tb">264</td>
+                <td id="gidp">10</td>
+                <td id="hbp">4</td>
+                <td id="sh">0</td>
+                <td id="sf">4</td>
+                <td id="ibb">27</td>
+                <td id="pos">*9D/H</td>
+                <td id="awards">AS</td>
+            </tr>
+        </table>
+    </body>
+</html>
