@@ -1,3 +1,7 @@
+body {
+  font-family:'Montserrat', sans-serif;
+}
+
 #top-batters {
     width: 100%;
     border-collapse:collapse;
@@ -60,4 +64,24 @@
 #top-batters td#player {
     text-align:left;
     padding-left:3px;
+}
+
+/* Nav bar*/
+#nav-bar {
+  height: 70px;
+  width: 98%;
+  background-color: darkgray;
+  align-items: center;
+  display:flex;
+  padding: 0 20px;
+}
+
+#players-button {
+  width: 100px;       /* fixed width to make it square */
+  height: 50px;      /* fixed height to make it square */
+  background-color: gray;  /* example blue color */
+  border: none;       /* optional: remove default button border */
+  color: white;       /* text color */
+  font-size: 16px;
+  cursor: pointer;
 }
