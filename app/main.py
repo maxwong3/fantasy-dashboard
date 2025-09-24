@@ -13,5 +13,10 @@ templates = Jinja2Templates(directory="app/templates")
 def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request, "data": "main"})
 
+@app.get("/data")
+def get_data():
+    with open("app/templates/data.html") as f:
+        return f.read()
+
 app.include_router(health.router, prefix=f"/health", tags=["Health"])
 app.include_router(players.router, prefix=f"/players", tags=["Players"])
