@@ -1,0 +1,56 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+pip-wheel-metadata/
+
+# Pytest / coverage / test cache
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+.env.*
+*.env
+
+# FastAPI / Uvicorn specific
+# (Optional: comment out if you want to keep logs)
+*.sqlite3
+uvicorn.log
+
+# User uploads and generated static
+media/
+staticfiles/
